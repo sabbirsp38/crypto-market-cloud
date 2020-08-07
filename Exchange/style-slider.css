@@ -1,0 +1,132 @@
+.swipe {
+  margin-bottom:20px;
+  overflow:hidden;
+  position:relative;
+  width:100%;
+}
+.swipe ul{
+    overflow:hidden;
+}
+.swipe li div, .swipe div div div {
+  padding: 5px 0px;
+    
+  text-align:center;
+}
+.swipe li img {
+    max-width: 85%;
+    width: 95%;
+    /* min-height: 100px; */
+    max-height: 50px;
+    margin-top: 5px;
+}
+.swipe li{
+	margin:10px;
+}
+#slider2 li{
+    width:230px;
+}
+#slider4{
+	line-height:0;
+	text-align:center;
+}
+#slider4 ul{
+	-webkit-transition:left 800ms ease-in 0;
+	-moz-transition:left 800ms ease-in 0;
+	-o-transition:left 800ms ease-in 0;
+	-ms-transition:left 800ms ease-in 0;
+	transition:left 800ms ease-in 0;
+}
+#pagenavi a.active{
+	color:red;
+}
+#copyright{
+	text-align:center;
+	font-size:16px;
+	padding:30px 0;
+}
+#copyright a{
+	font-weight:bold;
+	font-size:16px;
+}
+
+#slider li{
+	width:300px;
+	float:left;
+}
+#slider li:first-child{
+	width:100px;
+	margin:10px 40px;
+}
+#slider li:last-child{
+	width:500px;
+	border:3px solid #111;
+}
+#slider li:nth-child(2){
+	width:200px;
+}
+#slider li:nth-child(3){
+	width:300px;
+}
+#slider li:nth-child(4){
+	width:400px;
+}
+#slider1 li {
+    border: 1px solid #f2f3f6;
+    min-height: 149px;
+    padding: 1px 10px;
+    width: 23%;
+    box-shadow: 0 0 7px #f8f3f3;
+    float: left;
+}
+.customWidth{
+    width: 196px;
+}
+.customWidth2 {
+    width: 230px;
+}
+.FullposttextHead{
+	height: 120px;
+	margin-bottom: 30px;
+}
+
+.buttoncoursol{
+	 background-color: #29c44b;
+    color: #f1f1f1;
+    border-radius: 5px;
+    font-size: 10px;
+    margin-bottom: : 5px;
+    font-weight: bold;
+    padding: 4px;
+}
+.starSize{
+	font-size: 14px;
+}
+.buttoncoursolBig{
+	background-color: #29c44b;
+    color: #f1f1f1;
+    border-radius: 10px;
+    font-size: 12px;
+    margin-bottom: : 5px;
+    font-weight: bold;
+    padding: 2px 6px 3px 3px;
+        bottom: 30px;
+    position: absolute;
+    float: left;
+    margin-left: -20%; 
+}
+a.btn.btn-success.CoustRead01 {
+    bottom: 25px;
+}
+a.btn.btn-success.BCHANGCOLOR.CoustRead {
+    bottom: 10px;
+    margin-left: 75px;
+}
+.starSizeBig{
+	font-size: 18px;
+}
+.CoustRead01{
+    position: absolute;
+    bottom: 15px;
+    float: right;
+   margin-left: 10%;
+}

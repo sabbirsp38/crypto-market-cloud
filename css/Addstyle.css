@@ -1,0 +1,135 @@
+/* CSS Document */
+
+.carousel{top:-80px; min-height: 100%;}
+.my-nav{z-index: 200; background-color: transparent;}
+.my-nav .nav-link{color: aliceblue;}
+.navbar-brand{color: aliceblue;}
+
+.carousel h2{color: deeppink; font-size: 50px}
+.carousel p{color: lightcoral; font-size: 20px; font-weight: bold;}
+
+.upper-card{ text-align: center; border: 1px solid rgba(47,228,237,0.37);}
+.card i{font-size: 50px; padding: 10%; color:deepskyblue; transition: 1s}
+.card i:hover{color:violet; transition: 1s; font-size:60px;}
+.upper-card:hover{
+	-moz-box-shadow: 0 0 5px 10px #888;
+    -webkit-box-shadow: 0 0 5px 10px#888;
+     box-shadow: 0 0 5px 10px #888;
+}
+.choose{background-color: rgba(208,208,208,0.64)}
+
+
+
+
+
+.media{margin: 15px 0;}
+
+.media i{color: white; text-align: center; font-size: 30px; line-height:50px; padding:0 10px; border: 1px solid deepskyblue; border-radius: 50%; margin: 0 10px;background-color: deepskyblue;transition: 1s;}
+
+.media i:hover{color: deepskyblue; background-color: aliceblue; transition: 1s;}
+.media h5{font-weight: 400;}
+.my-btn{margin-left:13% ;}
+
+
+
+
+
+
+
+
+
+ 
+.testimonial{ margin: 0 20px 50px; }
+.testimonial .pic{
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin: 0 15px 15px 0;
+}
+.testimonial .pic img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+.testimonial .testimonial-profile{
+    display: inline-block;
+    position: relative;
+    top: 15px;
+}
+.testimonial .title{
+    display: block;
+    font-size: 20px;
+    font-weight: 600;
+    color: #2f2f2f;
+    text-transform: capitalize;
+    margin: 0 0 7px 0;
+}
+.testimonial .post{
+    display: block;
+    font-size: 14px;
+    color: #5d7aa7;
+}
+.testimonial .description{
+    padding: 20px 22px;
+    background: #1f487e;
+    font-size: 15px;
+    color: #fff;
+    line-height: 25px;
+    margin: 0;
+    position: relative;
+}
+.testimonial .description:before,
+.testimonial .description:after{
+    content: "";
+    border-width: 18px 0 0 18px;
+    border-style: solid;
+    border-color: #5d7aa7 transparent transparent;
+    position: absolute;
+    bottom: -18px;
+    left: 0;
+}
+.testimonial .description:after{
+    border-width: 18px 18px 0 0;
+    left: auto;
+    right: 0;
+}
+.owl-theme .owl-controls{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+.owl-theme .owl-controls .owl-buttons div{
+    opacity: 0.8;
+    background: #fff;
+}
+.owl-prev:before,
+.owl-next:before{
+    content: "\f053";
+    font-family: 'FontAwesome';
+    font-size: 20px;
+    color: #1f487e;
+}
+.owl-next:before{ content: "\f054"; }
+
+
+
+.blog .carousel-indicators {
+    left: 0;
+    top: auto;
+    bottom: -40px;
+
+}
+
+/* The colour of the indicators */
+.blog .carousel-indicators li {
+    background: #a3a3a3;
+    border-radius: 50%;
+    width: 8px;
+    height: 8px;
+}
+
+.blog .carousel-indicators .active {
+background: #707070;
+}
+
+

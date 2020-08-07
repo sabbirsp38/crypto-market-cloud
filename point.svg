@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128">
+<g fill="#4F4CE5" transform="translate(64 64)">
+  <polygon points="0 63  54.6 31.5  54.6 -31.5  0 -63  -54.6 -31.5  -54.6 31.5" fill="none" opacity=".4" stroke-width="2" stroke="#4F4CE5"/>
+  <polygon points="0 63  54.6 31.5  54.6 -31.5  0 -63  -54.6 -31.5  -54.6 31.5" transform="scale(.85)" opacity=".4"/>
+  <polygon points="0 63  54.6 31.5  54.6 -31.5  0 -63  -54.6 -31.5  -54.6 31.5" transform="scale(.48)"/>
+  <polygon points="0 63  54.6 31.5  54.6 -31.5  0 -63  -54.6 -31.5  -54.6 31.5" transform="scale(.16)" fill="#ffffff"/>
+  <polygon points="0 63  54.6 31.5  54.6 -31.5  0 -63  -54.6 -31.5  -54.6 31.5" transform="scale(.14)" fill="#aaccff"/>
+</g>
+</svg>

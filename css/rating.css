@@ -1,0 +1,105 @@
+
+
+.rating {
+    
+	float: right;
+	margin-right: 50px;
+}
+.rating2 {
+    
+	float: right;
+	margin-right: 50px;
+}
+
+.star-rating .in[type=radio] {
+    display: none
+}
+
+.star-rating .star{
+    color: #bbb;
+    font-size: 18px;
+    padding: 0;
+    cursor: pointer;
+       -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out
+}
+
+.star-rating .star:hover,
+.star-rating .star:hover ~ .star,
+.star-rating .in[type=radio]:checked ~ .star{
+    color: #f2b600
+}
+
+/* Team Rating */
+
+
+
+/* Road map Rating */
+.star {
+			background: none;
+			border: none;
+			font-size: 1.5em;
+			padding: 0 0.15em;
+		}
+
+.star.selected {
+			color: gold;
+		}
+.star2{
+			background: none;
+			border: none;
+			font-size: 1.5em;
+			padding: 0 0.15em;
+		}
+
+		.star2.selected {
+			color: gold;
+		}
+.star3{
+			background: none;
+			border: none;
+			font-size: 1.5em;
+			padding: 0 0.15em;
+		}
+
+		.star3.selected {
+			color: gold;
+		}
+	
+.star4{
+			background: none;
+			border: none;
+			font-size: 1.5em;
+			padding: 0 0.15em;
+		}
+
+		.star4.selected {
+			color: gold;
+		}
+		
+.star5{
+			background: none;
+			border: none;
+			font-size: 1.5em;
+			padding: 0 0.15em;
+		}
+
+		.star5.selected {
+			color: gold;
+		}
+		/**
+		 * Visually hide an element, but leave it available for screen readers
+		 * @link https://github.com/h5bp/html5-boilerplate/blob/master/dist/css/main.css
+		 * @link http://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+		 */
+		.screen-reader {
+			border: 0;
+			clip: rect(0 0 0 0);
+			height: 1px;
+			margin: -1px;
+			overflow: hidden;
+			padding: 0;
+			position: absolute;
+			white-space: nowrap;
+			width: 1px;
+		}
